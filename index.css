@@ -1,0 +1,59 @@
+#game{
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+}
+#my-battleship{
+    flex: 2/3;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    padding: 10px;
+	height:800px;
+	width:800px; 
+    margin: auto;
+}
+#my-battleship div{
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+#opponent-grid{
+    flex: 2/3;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    display: grid;
+    padding: 10px;
+	height:800px;
+	width:800px; 
+    margin: auto;
+}
+#opponent-grid div{
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.play{
+    margin-left: 50%;
+}
+#randomize{
+    flex: 1/3;
+}
+#randomize button{
+    margin-left: 45%;
+    margin-top: 45%;
+}
+.grid{
+    text-align: center;
+    font-size: 5px;
+}
+.grid-computer{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}
+.footer{
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    text-align: center;
+}
